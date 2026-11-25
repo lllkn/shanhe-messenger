@@ -1,0 +1,27 @@
+{
+  "id": "dali_youngster_repeat",
+  "title": "扎染店 · 再问姑娘",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "扎染店姑娘",
+      "text": "奶奶这会儿应该还在坊里。你把照片拿近些，她看得仔细。",
+      "source_line": "C18",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "要是她拿起笔了，你就坐下来，别急着走。",
+      "source_line": "C19",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/youngster-v01.png",
+    "speaker_portraits": {
+      "扎染店姑娘": "res://assets/characters/dali/youngster-v01.png"
+    }
+  }
+}

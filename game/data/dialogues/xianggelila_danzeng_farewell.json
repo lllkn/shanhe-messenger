@@ -1,0 +1,97 @@
+{
+  "id": "xianggelila_danzeng_farewell",
+  "title": "丹增染坊 · 留下记录",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "丹增把布提起一角，对着光看了看，又伸手抚平上面的褶。",
+      "copy_id": "H01"
+    },
+    {
+      "speaker": "丹增",
+      "text": "这回匀了。",
+      "copy_id": "H02",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "刚才搅慢一点，颜色就沉下去了。看您做的时候，倒觉得不难。",
+      "copy_id": "H03"
+    },
+    {
+      "speaker": "丹增",
+      "text": "看着就这几下。真做起来，哪一下也省不了。",
+      "copy_id": "H04",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "我把刚才的步骤记下了，您看看，有没有记错。",
+      "copy_id": "H05"
+    },
+    {
+      "speaker": "旁白",
+      "text": "丹增接过笔记本，在一处停了停，用手指点给你看。",
+      "copy_id": "H06"
+    },
+    {
+      "speaker": "丹增",
+      "text": "这里还得看布的样子，不能光记时间。你把这句添上。",
+      "copy_id": "H07",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好。片子里也把这一段留下。",
+      "copy_id": "H08"
+    },
+    {
+      "speaker": "旁白",
+      "text": "丹增的儿子走进院里，看见你袖口的染水，把带来的东西放到墙边。",
+      "copy_id": "H09"
+    },
+    {
+      "speaker": "丹增的儿子",
+      "text": "这缸好了？我帮你把布抬过去。",
+      "copy_id": "H10"
+    },
+    {
+      "speaker": "丹增",
+      "text": "先搭这边，别挨着地。",
+      "copy_id": "H11",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "他走到缸边，接住父亲递来的布。两个人把布慢慢展开，搭上晾架。",
+      "copy_id": "H12"
+    },
+    {
+      "speaker": "丹增",
+      "text": "这段纹样和手记，你带上。以后锦织出来了，别说这是我一个人的颜色。",
+      "copy_id": "H13",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "丹增",
+      "text": "都是前人留下的，我也做了一辈子。",
+      "copy_id": "H14",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "我会把来处记清楚。",
+      "copy_id": "H15"
+    },
+    {
+      "speaker": "丹增",
+      "text": "你还要问锦上的花样，可以去大理。我认得一位做扎染的婆婆，她那里留着不少老样子。",
+      "copy_id": "H16",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    }
+  ],
+  "background": "res://assets/puzzles/xianggelila/bg_danzeng_yard.png"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "dali_granny",
+  "title": "民居巷 · 带上纸笔",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "阿婆，您好。想跟您打听周城做扎染的那位婆婆。",
+      "source_line": "D02"
+    },
+    {
+      "speaker": "民居巷阿婆",
+      "text": "你找她做布，还是问花样？",
+      "source_line": "D03",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "问花样。您看看这张照片，她会不会认得？",
+      "source_line": "D04"
+    },
+    {
+      "speaker": "民居巷阿婆",
+      "text": "这个得让她自己看。我跟她来往这么多年，也认不得。",
+      "source_line": "D05",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "她平时愿意跟人讲这些吗？",
+      "source_line": "D06"
+    },
+    {
+      "speaker": "民居巷阿婆",
+      "text": "愿意啊。就是你问她一句怎么做，她嘴上还没说完，手上已经做了好几步。",
+      "source_line": "D07",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "那我得慢慢记。",
+      "source_line": "D08"
+    },
+    {
+      "speaker": "民居巷阿婆",
+      "text": "对。给她一张纸，让她画给你看。你有没看明白的，当面问。",
+      "source_line": "D09",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    },
+    {
+      "speaker": "民居巷阿婆",
+      "text": "她老说记得住，可别人不一定跟得上。",
+      "source_line": "D10",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "我想把花样和她讲的话一起留下，再请她核对。",
+      "source_line": "D11"
+    },
+    {
+      "speaker": "民居巷阿婆",
+      "text": "这就好。她坊门口晾着蓝白布，顺着路过去就看见了。",
+      "source_line": "D12",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "谢谢阿婆，我过去看看。",
+      "source_line": "D13"
+    },
+    {
+      "speaker": "民居巷阿婆",
+      "text": "去吧。她做起活来不看钟，你可得记着歇一歇。",
+      "source_line": "D14",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/granny-v01.png",
+    "speaker_portraits": {
+      "民居巷阿婆": "res://assets/characters/dali/granny-v01.png"
+    },
+    "phone": {
+      "photo": "res://assets/characters/dali/brocade-photo-v01.png",
+      "show": [
+        "D04",
+        "D05"
+      ],
+      "required": "D04",
+      "confirm_label": "让阿婆看照片",
+      "require_zoom": false,
+      "instruction": "调到70%以上，再给阿婆看。",
+      "hint": "请先调亮手机，再点击「让阿婆看照片」。"
+    }
+  }
+}

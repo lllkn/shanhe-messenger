@@ -1,0 +1,52 @@
+{
+  "stations": [
+    {
+      "id": "lijiang",
+      "name": "丽江",
+      "theme": "纳西·东巴文字",
+      "puzzle": "puzzle_glyph",
+      "cine": "cine_lijiang_1",
+      "fragments": [
+        "frag_dongba_tea"
+      ]
+    },
+    {
+      "id": "xianggelila",
+      "name": "香格里拉",
+      "theme": "藏·唐卡五色",
+      "puzzle": "puzzle_dye",
+      "cine": "cine_xianggelila_1",
+      "fragments": [
+        "frag_dye_five"
+      ]
+    },
+    {
+      "id": "dali",
+      "name": "大理",
+      "theme": "白族·扎染纹样",
+      "puzzle": "puzzle_pattern",
+      "cine": "cine_dali_1",
+      "fragments": [
+        "frag_zharan_pattern"
+      ]
+    },
+    {
+      "id": "puer",
+      "name": "普洱",
+      "theme": "傣·贝叶经/多文字",
+      "puzzle": "puzzle_script",
+      "cine": "cine_puer_1",
+      "fragments": [
+        "frag_beiye_oath"
+      ]
+    },
+    {
+      "id": "gucheng",
+      "name": "古城集场",
+      "theme": "织坊·回来的人",
+      "puzzle": "",
+      "cine": "cine_gucheng_1",
+      "fragments": []
+    }
+  ]
+}

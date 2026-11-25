@@ -1,0 +1,21 @@
+[gd_resource type="Theme" load_steps=3 format=3]
+
+[ext_resource type="SystemFont" path="res://assets/shared/fonts/emphasis.tres" id="1"]
+
+[sub_resource type="FontVariation" id="Font_emphasis"]
+base_font = ExtResource("1")
+variation_embolden = 0.65
+
+[resource]
+default_font = ExtResource("1")
+default_font_size = 24
+Label/colors/font_color = Color(0.929, 0.890, 0.796, 1)
+Label/colors/font_shadow_color = Color(0.047, 0.102, 0.086, 0.3)
+Label/constants/shadow_offset_x = 0
+Label/constants/shadow_offset_y = 1
+Button/fonts/font = SubResource("Font_emphasis")
+Button/colors/font_color = Color(0.929, 0.890, 0.796, 1)
+Button/colors/font_hover_color = Color(1, 0.878, 0.6, 1)
+Button/colors/font_pressed_color = Color(1, 0.878, 0.6, 1)
+RichTextLabel/fonts/normal_font = ExtResource("1")
+RichTextLabel/fonts/bold_font = SubResource("Font_emphasis")

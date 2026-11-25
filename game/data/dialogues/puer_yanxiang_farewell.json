@@ -1,0 +1,44 @@
+{
+  "id": "puer_yanxiang_farewell",
+  "title": "普洱 · 经书里的誓约",
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "岩香把排好的贝叶放到古锦照片旁，逐字比了比。"
+    },
+    {
+      "speaker": "岩香",
+      "text": "对上了。这是同路人的誓约，不是经文。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "岩香",
+      "text": "“同路的人，不分哪个族，盐茶共担。”锦上写的就是这段。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "这段话和您的解释，我能一起录下来吗？"
+    },
+    {
+      "speaker": "岩香",
+      "text": "可以。描样你带上，贝叶留在这里。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "小沙弥",
+      "text": "后面这几个字，我还想问问。",
+      "portrait": "res://assets/characters/puer/novice-v01.png"
+    },
+    {
+      "speaker": "岩香",
+      "text": "坐下，我慢慢讲。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你录下念读，收好描样和笔记。小沙弥在桌边坐了下来。"
+    }
+  ],
+  "background": "res://assets/puzzles/puer/bg_zangfang.png"
+}

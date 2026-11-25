@@ -1,0 +1,19 @@
+{
+  "id": "xianggelila_danzeng_locked",
+  "title": "村尾染坊",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "坊门开着，院里传来搅动染缸的声音。",
+      "copy_id": "E11"
+    },
+    {
+      "speaker": "主角",
+      "text": "师傅还在忙。先把附近几处问完，再来拜访。",
+      "copy_id": "E12"
+    }
+  ]
+}

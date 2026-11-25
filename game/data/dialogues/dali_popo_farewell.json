@@ -1,0 +1,162 @@
+{
+  "id": "dali_popo_farewell",
+  "title": "周城扎染坊 · 留下纹样记录",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "婆婆把桌上的画纸一张张捋平。你在旁边补上名字，把需要再确认的地方圈了出来。",
+      "source_line": "H01"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "这张留着。刚才认错的也别扔，搁旁边一比，就知道差在哪儿。",
+      "source_line": "H02",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好。我把您的提示也记上，以后看的人就知道该看哪里。",
+      "source_line": "H03"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "名字写大一点，我再看看。",
+      "source_line": "H04",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你把笔记本转向婆婆。她逐行看过，在一处名字旁补了两个字。",
+      "source_line": "H05"
+    },
+    {
+      "speaker": "主角",
+      "text": "今天记下这一批，剩下的花样，咱们以后接着整理。",
+      "source_line": "H06"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "行。还有好些呢，今天一下子也画不完。",
+      "source_line": "H07",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "门口传来脚步声。扎染店姑娘收了店，走到桌边，看见摊开的画纸。",
+      "source_line": "H08"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "奶奶，你们记了这么多？",
+      "source_line": "H09",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "她画，我认；我画，她认。认不清的，改了又改。",
+      "source_line": "H10",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "我也看看。以后在店里碰到人问，总不能都让人来找你。",
+      "source_line": "H11",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "这份留在坊里。我再拍一份，把名字和您奶奶讲的要点一起整理好。",
+      "source_line": "H12"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "好。奶奶，等会儿你做这块布，我坐旁边跟着看。",
+      "source_line": "H13",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "坐吧。先看这一针从哪儿起。",
+      "source_line": "H14",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "婆婆拿起桌边的一块旧布，放到古锦照片旁边。她指着其中的花枝，慢慢比给你看。",
+      "source_line": "H15"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "你照片上这一段，跟这个老花样对得上。看这里，枝往哪边走，叶落在哪儿。",
+      "source_line": "H16",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "我看到了。刚才只看个大概，现在能对上这些细节了。",
+      "source_line": "H17"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "这张描样纸你带上，回去对照。旧布我留着，你把照片拍清楚。",
+      "source_line": "H18",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好。我把是谁认的、照着什么认的，都记下来。",
+      "source_line": "H19"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "死样板变成了活档案。你这个小同志，干了件实事。",
+      "source_line": "H20",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "多亏您肯一笔一笔地讲。",
+      "source_line": "H21"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你拍下纹样纸和旧布，把婆婆核对过的记录收进笔记本。桌子的另一边，姑娘已经搬来凳子，坐在奶奶身旁。",
+      "source_line": "H22"
+    },
+    {
+      "speaker": "旁白",
+      "text": "离开前，你把当天核对过的记录整理成一则短报道，发回台里。",
+      "source_line": "H28"
+    },
+    {
+      "speaker": "报道文字",
+      "text": "老纹样板损坏后，婆婆仍凭记忆做着那些花样。今天，她和来访的编导一起画样、辨认、核对，把一批花样重新记在纸上。",
+      "source_line": "H30"
+    }
+  ],
+  "background": "res://assets/puzzles/dali/bg_zharanfang.png",
+  "stage": {
+    "portrait": "res://assets/puzzles/dali/npc_popo.png",
+    "speaker_portraits": {
+      "扎染婆婆": "res://assets/puzzles/dali/npc_popo.png",
+      "扎染店姑娘": "res://assets/characters/dali/youngster-v01.png"
+    },
+    "phone": {
+      "photo": "res://assets/characters/dali/brocade-photo-v01.png",
+      "show": [
+        "H15",
+        "H16",
+        "H17",
+        "H18"
+      ],
+      "required": "",
+      "confirm_label": "让婆婆看照片",
+      "require_zoom": false,
+      "instruction": "调到70%以上，再给婆婆看。",
+      "hint": "请先调亮手机，再点击「让婆婆看照片」。"
+    }
+  }
+}

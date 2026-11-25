@@ -1,0 +1,46 @@
+{
+  "id": "lijiang_dongba_farewell",
+  "title": "东巴院 · 把前因后果写清楚",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "阿东巴把排好的四张残页逐一看过，又让主角打开古锦照片。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "这回顺了。你再看看锦上这一段，跟刚才认的，是不是有些地方对得上？",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "对得上。原来得连起来看。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "嗯。光拍一个字回去，别人还是不知道它说的什么。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "那这一段，我能记下来吗？"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "能。把前因后果写清楚，别回去一剪，剪成别的意思了。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "记好了我给您看，片子做好也给您送一份。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "行，我等着。你们还要找这锦上的颜色，就去香格里拉问问丹增。他还做不做，得你们自己去问。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    }
+  ],
+  "background": "res://assets/puzzles/lijiang/bg_dongba_yard.png"
+}

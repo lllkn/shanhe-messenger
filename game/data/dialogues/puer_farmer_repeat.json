@@ -1,0 +1,11 @@
+{
+  "id": "puer_farmer_repeat",
+  "title": "普洱 · 晒茶场",
+  "lines": [
+    {
+      "speaker": "茶农",
+      "text": "我说的是老人讲过的话。锦上写什么，还是请认字的人看。",
+      "portrait": "res://assets/characters/puer/farmer-v01.png"
+    }
+  ]
+}

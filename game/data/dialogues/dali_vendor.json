@@ -1,0 +1,79 @@
+{
+  "id": "dali_vendor",
+  "title": "照壁巷 · 乳扇摊",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "您好，跟您打听个事。您认得照片上这个花样吗？",
+      "source_line": "B02"
+    },
+    {
+      "speaker": "乳扇摊主",
+      "text": "我手上有油，你拿着给我看……再放大一点。",
+      "source_line": "B03",
+      "portrait": "res://assets/characters/dali/vendor-v01.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你把手机往前递了递，摊主凑近看了一会儿。",
+      "source_line": "B04"
+    },
+    {
+      "speaker": "乳扇摊主",
+      "text": "有点眼熟。以前周城那边有人做这样的花，跟现在店里挂的还不大一样。",
+      "source_line": "B05",
+      "portrait": "res://assets/characters/dali/vendor-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "您知道是哪一家吗？",
+      "source_line": "B06"
+    },
+    {
+      "speaker": "乳扇摊主",
+      "text": "哪一家我说不准。我卖吃的，可不敢替做扎染的认花样。",
+      "source_line": "B07",
+      "portrait": "res://assets/characters/dali/vendor-v01.png"
+    },
+    {
+      "speaker": "乳扇摊主",
+      "text": "城里那家扎染店，你去问问。店里那个年轻姑娘，家里就是做这个的。",
+      "source_line": "B08",
+      "portrait": "res://assets/characters/dali/vendor-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好，谢谢您。",
+      "source_line": "B09"
+    },
+    {
+      "speaker": "乳扇摊主",
+      "text": "不客气。路上慢慢看，好些花样就挂在人家门口呢。",
+      "source_line": "B10",
+      "portrait": "res://assets/characters/dali/vendor-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/vendor-v01.png",
+    "speaker_portraits": {
+      "乳扇摊主": "res://assets/characters/dali/vendor-v01.png"
+    },
+    "phone": {
+      "photo": "res://assets/characters/dali/brocade-photo-v01.png",
+      "show": [
+        "B02",
+        "B03",
+        "B04",
+        "B05"
+      ],
+      "required": "B03",
+      "confirm_label": "让乳扇摊主看照片",
+      "require_zoom": true,
+      "instruction": "调到70%以上并放大纹样，再给乳扇摊主看。",
+      "hint": "请先调亮手机、放大纹样，再点击「让乳扇摊主看照片」。"
+    }
+  }
+}

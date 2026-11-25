@@ -1,0 +1,224 @@
+{
+  "stations": {
+    "lijiang": {
+      "subtitle": "带着古锦照片访查街巷，再走进东巴院。",
+      "location": "东巴院",
+      "preview": "res://assets/puzzles/lijiang/bg_dongba_yard.png",
+      "map_scene": "res://scenes/cities/lijiang.tscn",
+      "flow": [
+        {
+          "id": "arrival",
+          "type": "dialogue",
+          "content": "lijiang_arrival"
+        },
+        {
+          "id": "interviews",
+          "type": "map"
+        },
+        {
+          "id": "dongba_visit",
+          "type": "dialogue",
+          "content": "lijiang_dongba_visit"
+        },
+        {
+          "id": "glyph",
+          "type": "puzzle",
+          "defer_reward": true
+        },
+        {
+          "id": "farewell",
+          "type": "dialogue",
+          "content": "lijiang_dongba_farewell"
+        }
+      ],
+      "city": {
+        "asset": "lijiang",
+        "spawn_anchor": "SPAWN_AncientTownEntrance",
+        "spawn_offset": [
+          3,
+          0,
+          -5
+        ],
+        "spawn_label": "古城口 · 水车旁",
+        "goal_anchor": "GOAL_DongbaCourtGate",
+        "yaw": 0.35,
+        "pitch": 0.7,
+        "distance": 12.0,
+        "fov": 50
+      }
+    },
+    "xianggelila": {
+      "subtitle": "走进丹增染坊，在五色与双手之间寻找答案。",
+      "location": "丹增染坊",
+      "preview": "res://assets/puzzles/xianggelila/bg_danzeng_yard.png",
+      "map_scene": "res://scenes/cities/xianggelila.tscn",
+      "flow": [
+        {
+          "id": "arrival",
+          "type": "dialogue",
+          "content": "xianggelila_arrival"
+        },
+        {
+          "id": "interviews",
+          "type": "map"
+        },
+        {
+          "id": "visit",
+          "type": "dialogue",
+          "content": "xianggelila_danzeng_visit"
+        },
+        {
+          "id": "dye",
+          "type": "puzzle",
+          "defer_reward": true
+        },
+        {
+          "id": "farewell",
+          "type": "dialogue",
+          "content": "xianggelila_danzeng_farewell"
+        }
+      ],
+      "city": {
+        "asset": "xianggelila",
+        "spawn_anchor": "SPAWN_MoonlightPlaza",
+        "spawn_label": "月光广场",
+        "goal_anchor": "GOAL_DyeWorkshop",
+        "yaw": -0.6,
+        "spawn_offset": [
+          1.2,
+          0,
+          1.6
+        ],
+        "pitch": 0.7,
+        "distance": 12.0,
+        "fov": 50
+      }
+    },
+    "dali": {
+      "subtitle": "听婆婆描述纹样，在蓝白之间辨认古道记忆。",
+      "location": "扎染坊",
+      "preview": "res://assets/puzzles/dali/bg_zharanfang.png",
+      "map_scene": "res://scenes/cities/dali.tscn",
+      "flow": [
+        {
+          "id": "arrival",
+          "type": "dialogue",
+          "content": "dali_arrival"
+        },
+        {
+          "id": "interviews",
+          "type": "map"
+        },
+        {
+          "id": "popo_visit",
+          "type": "dialogue",
+          "content": "dali_popo_visit"
+        },
+        {
+          "id": "pattern",
+          "type": "puzzle",
+          "defer_reward": true
+        },
+        {
+          "id": "farewell",
+          "type": "dialogue",
+          "content": "dali_popo_farewell"
+        }
+      ],
+      "city": {
+        "asset": "dali",
+        "spawn_anchor": "SPAWN_CaicunWharf",
+        "spawn_label": "才村码头",
+        "goal_anchor": "GOAL_ZhouchengTieDyeWorkshop",
+        "yaw": 0.55,
+        "pitch": 0.7,
+        "distance": 12.0,
+        "fov": 50,
+        "spawn_offset": [
+          -2.5,
+          0,
+          -1.0
+        ]
+      }
+    },
+    "puer": {
+      "subtitle": "在奘房整理贝叶，让同路人的誓约重新成册。",
+      "location": "奘房",
+      "preview": "res://assets/puzzles/puer/bg_zangfang.png",
+      "map_scene": "res://scenes/cities/puer.tscn",
+      "flow": [
+        {
+          "id": "arrival",
+          "type": "dialogue",
+          "content": "puer_arrival"
+        },
+        {
+          "id": "interviews",
+          "type": "map"
+        },
+        {
+          "id": "yanxiang_visit",
+          "type": "dialogue",
+          "content": "puer_yanxiang_visit"
+        },
+        {
+          "id": "script",
+          "type": "puzzle",
+          "defer_reward": true
+        },
+        {
+          "id": "farewell",
+          "type": "dialogue",
+          "content": "puer_yanxiang_farewell"
+        }
+      ],
+      "city": {
+        "asset": "puer",
+        "spawn_anchor": "SPAWN_VillageGate",
+        "spawn_label": "寨口",
+        "goal_anchor": "GOAL_GoldenPagoda",
+        "yaw": -0.9,
+        "pitch": 0.7,
+        "distance": 12.0,
+        "fov": 50,
+        "spawn_offset": [
+          0,
+          0,
+          -1.2
+        ]
+      }
+    },
+    "gucheng": {
+      "subtitle": "纪录片播出后，带着四城记录前往古城，拜访织坊的木老爷。",
+      "location": "织坊",
+      "preview": "",
+      "map_scene": "res://scenes/cities/gucheng.tscn",
+      "flow": [
+        {
+          "id": "arrival",
+          "type": "dialogue",
+          "content": "gucheng_arrival"
+        },
+        {
+          "id": "workshop",
+          "type": "map"
+        },
+        {
+          "id": "visit",
+          "type": "dialogue",
+          "content": "gucheng_mulaoye_visit"
+        }
+      ],
+      "city": {
+        "asset": "lijiang",
+        "spawn_anchor": "HUB_SifangSquare",
+        "spawn_label": "四方街 · 归来集场",
+        "goal_anchor": "POI_DongbaPaper",
+        "yaw": 0.15,
+        "pitch": 0.7,
+        "distance": 12.0,
+        "fov": 50
+      }
+    }
+  }
+}

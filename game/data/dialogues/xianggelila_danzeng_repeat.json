@@ -1,0 +1,21 @@
+{
+  "id": "xianggelila_danzeng_repeat",
+  "title": "丹增染坊",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "丹增",
+      "text": "手记收好了？有没看明白的，下回来再问。",
+      "copy_id": "J05",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "收好了。等片子整理出来，我再带给您看。",
+      "copy_id": "J06"
+    }
+  ],
+  "background": "res://assets/puzzles/xianggelila/bg_danzeng_yard.png"
+}

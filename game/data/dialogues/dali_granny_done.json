@@ -1,0 +1,21 @@
+{
+  "id": "dali_granny_done",
+  "title": "民居巷 · 再见阿婆",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "民居巷阿婆",
+      "text": "她肯慢慢画，你肯慢慢记，这事就做得成。",
+      "source_line": "I23",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/granny-v01.png",
+    "speaker_portraits": {
+      "民居巷阿婆": "res://assets/characters/dali/granny-v01.png"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "古城 · 回来的人",
+  "minimap_title": "古城织坊 · 木老爷",
+  "bounds": [-29, 29, -20, 22],
+  "interviews": [],
+  "arrival": "gucheng_arrival",
+  "visit": "gucheng_mulaoye_visit",
+  "visit_step": "visit",
+  "puzzle_step": "ending",
+  "farewell": "gucheng_mulaoye_repeat",
+  "core": {"id": "mulaoye", "name": "木老爷", "short": "织坊", "place": "木老爷的织坊", "repeat": "gucheng_mulaoye_repeat", "radius": 2.5, "offset": [0, 0, 2.5], "height": 1.65},
+  "canal": [[-21,-15],[-16,-11],[-10.5,-8.1],[-5,-4.2],[0,-2.1],[6.2,1.8],[10.8,5.2],[14.1,11.7],[16.9,16.5],[19.4,21.2]],
+  "bridges": [{"id":"WestSquare","segment":2,"fraction":0.45},{"id":"SquareDrum","segment":5,"fraction":0.3},{"id":"SouthLoop","segment":6,"fraction":0.65}],
+  "ui": {
+    "initial_objective": "带上四城记录\n前往织坊拜访木老爷",
+    "complete_objective": "古城故事已完成\n爷孙的学习才刚刚开始",
+    "arrival_hint": "E · 阅读赴古城的缘由",
+    "core_hint": "E · 拜访木老爷",
+    "complete_hint": "E · 看看织坊里的爷孙",
+    "interrupted": "记录已保留，靠近木老爷按 E 可以继续交谈。"
+  }
+}

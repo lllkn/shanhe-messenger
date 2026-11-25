@@ -1,0 +1,179 @@
+{
+  "canal": [
+    [
+      -21,
+      -15
+    ],
+    [
+      -16,
+      -11
+    ],
+    [
+      -10.5,
+      -8.1
+    ],
+    [
+      -5,
+      -4.2
+    ],
+    [
+      0,
+      -2.1
+    ],
+    [
+      6.2,
+      1.8
+    ],
+    [
+      10.8,
+      5.2
+    ],
+    [
+      14.1,
+      11.7
+    ],
+    [
+      16.9,
+      16.5
+    ],
+    [
+      19.4,
+      21.2
+    ]
+  ],
+  "bridges": [
+    {
+      "id": "WestSquare",
+      "segment": 2,
+      "fraction": 0.45
+    },
+    {
+      "id": "SquareDrum",
+      "segment": 5,
+      "fraction": 0.3
+    },
+    {
+      "id": "SouthLoop",
+      "segment": 6,
+      "fraction": 0.65
+    }
+  ],
+  "interviews": [
+    {
+      "id": "silver",
+      "anchor": "NPC_01_SilverShopSister",
+      "name": "银饰大姐",
+      "place": "银饰店",
+      "dialogue": "lijiang_silver",
+      "repeat": "lijiang_silver_repeat",
+      "clue": "线索①：纹样可能是文字",
+      "radius": 2.2,
+      "short": "银饰",
+      "color": "bb9876",
+      "height": 1.65
+    },
+    {
+      "id": "student",
+      "anchor": "NPC_03_Student",
+      "name": "小学生",
+      "place": "四方街",
+      "dialogue": "lijiang_student",
+      "repeat": "lijiang_student_repeat",
+      "clue": "线索②：这是东巴字，但认识的人越来越少",
+      "radius": 2.2,
+      "short": "学生",
+      "color": "a6b980",
+      "height": 1.2
+    },
+    {
+      "id": "inn",
+      "anchor": "NPC_02_InnKeeper",
+      "name": "客栈老板",
+      "place": "客栈",
+      "dialogue": "lijiang_inn",
+      "repeat": "lijiang_inn_repeat",
+      "clue": "线索③：阿东巴坚持不外传，家中孩子也已离开",
+      "radius": 2.2,
+      "short": "客栈",
+      "color": "877054",
+      "height": 1.65
+    }
+  ],
+  "arrival": "lijiang_arrival",
+  "visit": "lijiang_dongba_visit",
+  "farewell": "lijiang_dongba_farewell",
+  "fragment": "frag_dongba_tea",
+  "bounds": [
+    -29,
+    29,
+    -20,
+    22
+  ],
+  "title": "丽江 · 古锦访查",
+  "map_title": "丽江访查 · 点击目标引路",
+  "core": {
+    "id": "dongba",
+    "name": "阿东巴",
+    "short": "东巴院",
+    "place": "东巴院",
+    "repeat": "lijiang_dongba_repeat",
+    "radius": 2.5,
+    "offset": [
+      0,
+      0,
+      1.6
+    ],
+    "color": "bcab83"
+  },
+  "hide_meshes": [
+    "B_05_*"
+  ],
+  "visit_step": "dongba_visit",
+  "puzzle_step": "glyph",
+  "fall_bounds": [
+    -31,
+    31,
+    -25,
+    25
+  ],
+  "text": {
+    "objective_done": "已获得东巴茶经碎片\n下一站：香格里拉 · 丹增",
+    "objective_farewell": "残页整理完成\n请阿东巴核对记录",
+    "objective_puzzle": "阿东巴同意教你认字\n到桌边开始整理",
+    "objective_ready": "访谈完成 · %d/%d\n前往东巴院找阿东巴",
+    "objective_visit": "寻找东巴字线索 · %d/%d\n与街上的三个人聊聊",
+    "blocked": "先把街上的三处访谈问完，再来拜访阿东巴。",
+    "core_locked": "先问街上三人",
+    "core_farewell": "E · 向阿东巴核对记录",
+    "core_puzzle": "E · 开始认字与理书",
+    "footer_done": "丽江访查完成 · 可从长卷前往香格里拉",
+    "reward_title": "获得 · 东巴茶经碎片",
+    "reward_body": "字形、残页与马帮日常连成了一段故事。\n记录已放入行囊。",
+    "reward_next": "下一站：香格里拉 · 寻找丹增师傅",
+    "reward_stay": "留在丽江逛逛",
+    "done_greeting": "阿东巴：去香格里拉问问丹增吧，我等着你们的片子。"
+  },
+  "minimap_title": "丽江访查 · 点击目标引路",
+  "ui": {
+    "initial_objective": "寻找东巴字线索",
+    "complete_objective": "已获得东巴茶经碎片\n下一站：香格里拉 · 丹增",
+    "solved_objective": "残页整理完成\n请阿东巴核对记录",
+    "visit_objective": "阿东巴同意教你认字\n到桌边开始整理",
+    "interviews_objective": "访谈完成 · 3/3\n前往东巴院找阿东巴",
+    "locked_target": "先在街上完成三处访谈，再去东巴院。",
+    "locked_prompt": "先问街上三人",
+    "locked_hint": "先完成街上三处访谈",
+    "arrival_hint": "E · 听开场旁白，认领访查任务",
+    "core_hint": "E · 拜访阿东巴",
+    "retry_hint": "E · 开始认字与理书",
+    "farewell_hint": "E · 向阿东巴核对记录",
+    "complete_hint": "丽江访查完成 · 可从长卷前往香格里拉"
+  },
+  "reward": {
+    "title": "获得 · 东巴茶经碎片",
+    "description": "字形、残页与马帮日常连成了一段故事。\n记录已放入行囊。",
+    "next_text": "下一站：香格里拉 · 寻找丹增师傅",
+    "continue_label": "带上记录 · 返回长卷",
+    "stay_label": "留在丽江逛逛"
+  }
+}

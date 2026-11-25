@@ -1,0 +1,17 @@
+{
+  "id": "lijiang_silver",
+  "title": "访谈打卡 · 银饰店",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "大姐，请问这是什么花？"
+    },
+    {
+      "speaker": "银饰大姐",
+      "text": "哎呦，这个不像花，倒像是字。你去东巴院问问。"
+    }
+  ]
+}

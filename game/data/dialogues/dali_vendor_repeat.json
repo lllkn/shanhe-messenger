@@ -1,0 +1,27 @@
+{
+  "id": "dali_vendor_repeat",
+  "title": "照壁巷 · 再问摊主",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "乳扇摊主",
+      "text": "还是问那块锦啊？我就认得个眼熟，细的得问做扎染的人。",
+      "source_line": "B14",
+      "portrait": "res://assets/characters/dali/vendor-v01.png"
+    },
+    {
+      "speaker": "乳扇摊主",
+      "text": "你把照片给他们看，比我在这里说半天管用。",
+      "source_line": "B15",
+      "portrait": "res://assets/characters/dali/vendor-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/vendor-v01.png",
+    "speaker_portraits": {
+      "乳扇摊主": "res://assets/characters/dali/vendor-v01.png"
+    }
+  }
+}

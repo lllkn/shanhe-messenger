@@ -1,0 +1,46 @@
+{
+  "id": "puer_novice",
+  "title": "普洱 · 奘房路边",
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "你好，想打听一下，岩香在奘房吗？"
+    },
+    {
+      "speaker": "小沙弥",
+      "text": "在，桌上摊着好些贝叶。我刚帮他搬进去。",
+      "portrait": "res://assets/characters/puer/novice-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "你也跟着他学认字？"
+    },
+    {
+      "speaker": "小沙弥",
+      "text": "学着呢。单个字能认一些，连成一页，就得请他慢慢念。",
+      "portrait": "res://assets/characters/puer/novice-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "我想把他认字、读叶子的过程录下来。"
+    },
+    {
+      "speaker": "小沙弥",
+      "text": "你先问问他。哪些能拍，哪些先收起来，他会告诉你。",
+      "portrait": "res://assets/characters/puer/novice-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好，问过他再开机器。"
+    },
+    {
+      "speaker": "小沙弥",
+      "text": "也别只拍叶子。旁边是谁念的、讲了什么，都记上，不然我拿回来还是看不懂。",
+      "portrait": "res://assets/characters/puer/novice-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "嗯，把字和他讲的话放在一起。"
+    }
+  ]
+}

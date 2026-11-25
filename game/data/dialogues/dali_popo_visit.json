@@ -1,0 +1,140 @@
+{
+  "id": "dali_popo_visit",
+  "title": "周城扎染坊 · 婆婆记得的花样",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "婆婆，您好。有人在吗？",
+      "source_line": "E15"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "在呢，进来吧。门边的布还没干，别蹭着衣服。",
+      "source_line": "E16",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "婆婆坐在桌边，正低头整理一块扎好的布。见你进来，她把手里的针放进针包。",
+      "source_line": "F01"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "找我做布？",
+      "source_line": "F02",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "想请您认个花样。我是来拍纪录片的，正在访查茶马古道沿线的手艺。",
+      "source_line": "F03"
+    },
+    {
+      "speaker": "主角",
+      "text": "这是馆里的一块古锦。城里的人说，这一段也许您认得。",
+      "source_line": "F04"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "拿过来……亮一点，我看看。",
+      "source_line": "F05",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你调亮屏幕，把照片放大。婆婆用指尖比了比花枝的走向。",
+      "source_line": "F06"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "这个样子见过。旁边这一小块拍得不清楚，先别急着认。",
+      "source_line": "F07",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "您这里还留着能对照的样子吗？",
+      "source_line": "F08"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "旧布还留着几块，板子没了。早些年屋里进水，泡得字也看不清，花也糊了。",
+      "source_line": "F09",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "那么多花样，后来都是凭记忆做？",
+      "source_line": "F10"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "做惯了，拿起布就想得起来。哪儿收紧，哪儿留一点，手上知道。",
+      "source_line": "F11",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "样板没了就没了，反正都在我脑子里。就是哪天我脑子也不行了……",
+      "source_line": "F12",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "那咱们把它记下来。您慢慢画，我来记，记错的地方您帮我改。",
+      "source_line": "F13"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "你画得来？",
+      "source_line": "F14",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "您先画，我来认。再换我画，您看看像不像。",
+      "source_line": "F15"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "行，认不出来就问。记完给我看看。",
+      "source_line": "F16",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你翻开笔记本，婆婆取来纸笔，在你对面坐下。",
+      "source_line": "F17"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "来，我先画一个，你认认。",
+      "source_line": "F18",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    }
+  ],
+  "background": "res://assets/puzzles/dali/bg_zharanfang.png",
+  "stage": {
+    "portrait": "res://assets/puzzles/dali/npc_popo.png",
+    "speaker_portraits": {
+      "扎染婆婆": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    "phone": {
+      "photo": "res://assets/characters/dali/brocade-photo-v01.png",
+      "show": [
+        "F04",
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "required": "F05",
+      "confirm_label": "让婆婆看照片",
+      "require_zoom": true,
+      "instruction": "调到70%以上并放大纹样，再给婆婆看。",
+      "hint": "请先调亮手机、放大纹样，再点击「让婆婆看照片」。"
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "title": "普洱 · 古锦访查",
+  "minimap_title": "普洱访查 · 点击目标引路",
+  "bounds": [
+    -30.5,
+    30.5,
+    -21.5,
+    21.5
+  ],
+  "canal": [],
+  "bridges": [],
+  "roads": {
+    "Gate_Tea": [
+      [
+        -20.5,
+        0.05,
+        12.8
+      ],
+      [
+        -15.0,
+        0.05,
+        10.600000000000001
+      ],
+      [
+        -11.0,
+        0.05,
+        6.9
+      ],
+      [
+        -7.0,
+        0.05,
+        3.5
+      ],
+      [
+        -4.0,
+        0.05,
+        -0.0
+      ]
+    ],
+    "Tea_Monk": [
+      [
+        -4.0,
+        0.05,
+        -0.0
+      ],
+      [
+        1.0,
+        0.05,
+        1.7000000000000002
+      ],
+      [
+        4.9,
+        0.05,
+        3.9000000000000004
+      ],
+      [
+        8.0,
+        0.05,
+        6.0
+      ]
+    ],
+    "Monk_Temple": [
+      [
+        8.0,
+        0.05,
+        6.0
+      ],
+      [
+        10.700000000000001,
+        0.05,
+        2.5
+      ],
+      [
+        13.200000000000001,
+        0.05,
+        -2.6
+      ],
+      [
+        16.0,
+        0.05,
+        -7.0
+      ]
+    ],
+    "Gate_Hostess": [
+      [
+        -17.0,
+        0.05,
+        11.600000000000001
+      ],
+      [
+        -14.600000000000001,
+        0.05,
+        9.5
+      ],
+      [
+        -12.0,
+        0.05,
+        9.0
+      ]
+    ],
+    "Hostess_Tea": [
+      [
+        -12.0,
+        0.05,
+        9.0
+      ],
+      [
+        -10.200000000000001,
+        0.05,
+        5.5
+      ],
+      [
+        -7.0,
+        0.05,
+        3.5
+      ]
+    ],
+    "Tea_View": [
+      [
+        -4.0,
+        0.05,
+        -0.0
+      ],
+      [
+        -8.0,
+        0.05,
+        -1.8
+      ],
+      [
+        -13.0,
+        0.05,
+        -2.8000000000000003
+      ],
+      [
+        -16.6,
+        0.05,
+        -1.6
+      ],
+      [
+        -20.0,
+        0.05,
+        -1.0
+      ]
+    ],
+    "Monk_Palm": [
+      [
+        8.0,
+        0.05,
+        6.0
+      ],
+      [
+        12.9,
+        0.05,
+        8.4
+      ],
+      [
+        17.3,
+        0.05,
+        9.0
+      ],
+      [
+        22.0,
+        0.05,
+        9.0
+      ]
+    ]
+  },
+  "sampling": {
+    "ray_top": 0.8,
+    "ray_bottom": -0.65,
+    "road_half_width": 1.05
+  },
+  "arrival": "puer_arrival",
+  "visit": "puer_yanxiang_visit",
+  "farewell": "puer_yanxiang_farewell",
+  "interviews_end": "puer_interviews_end",
+  "visit_step": "yanxiang_visit",
+  "puzzle_step": "script",
+  "fragment": "frag_beiye_oath",
+  "interviews": [
+    {
+      "id": "hostess",
+      "anchor": "NPC_03_Hostess",
+      "name": "竹楼女主人",
+      "short": "竹楼",
+      "place": "竹楼前",
+      "dialogue": "puer_hostess",
+      "repeat": "puer_hostess_repeat",
+      "clue": "读贝叶的人",
+      "radius": 2.2,
+      "existing_actor": "ACTOR_Hostess",
+      "color": "bb9876",
+      "height": 1.65
+    },
+    {
+      "id": "farmer",
+      "anchor": "NPC_01_TeaFarmer",
+      "name": "茶农",
+      "short": "晒茶场",
+      "place": "晒茶场",
+      "dialogue": "puer_farmer",
+      "repeat": "puer_farmer_repeat",
+      "clue": "口传的同路规矩",
+      "radius": 2.2,
+      "existing_actor": "ACTOR_TeaFarmer",
+      "color": "a6b980",
+      "height": 1.65
+    },
+    {
+      "id": "novice",
+      "anchor": "NPC_02_NoviceMonk",
+      "name": "小沙弥",
+      "short": "路边",
+      "place": "奘房路边",
+      "dialogue": "puer_novice",
+      "repeat": "puer_novice_repeat",
+      "clue": "把字和念读一起留下",
+      "radius": 2.2,
+      "existing_actor": "ACTOR_NoviceMonk",
+      "color": "b7a06c",
+      "height": 1.25
+    }
+  ],
+  "core": {
+    "id": "yanxiang",
+    "name": "岩香",
+    "short": "奘房",
+    "place": "奘房",
+    "radius": 2.5,
+    "color": "bcab83",
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "repeat": "puer_yanxiang_repeat",
+    "height": 1.65
+  },
+  "text": {
+    "search": "寻找古锦上的文字线索",
+    "search_detail": "走访竹楼女主人、茶农和小沙弥",
+    "visit": "拜访岩香",
+    "visit_detail": "前往奘房，请岩香辨认古锦上的文字",
+    "puzzle": "整理贝叶",
+    "puzzle_detail": "返回岩香处开始贝叶归册",
+    "farewell": "核对誓约记录",
+    "farewell_detail": "贝叶已排齐，返回岩香处完成记录",
+    "complete": "普洱走访完成",
+    "complete_detail": "已获得贝叶誓约碎片。下一站：古城集场。",
+    "locked": "还有走访未完成，请查看地图上的打卡点。",
+    "locked_short": "先完成三处走访",
+    "interrupted": "交谈尚未完成，可再次与对方交谈。",
+    "core_hint": "拜访岩香",
+    "puzzle_hint": "开始贝叶归册",
+    "farewell_hint": "核对誓约记录",
+    "repeat_hint": "向岩香告别",
+    "reward_title": "获得「贝叶誓约碎片」· 已放入行囊",
+    "reward_body": "经岩香核对的誓约描样，记录古锦上这一段文字的含义。\n同路的人，不分哪个族，盐茶共担。",
+    "reward_source": "本段誓约及关卡短句为游戏创作，并非真实经文或历史誓词引文。",
+    "reward_button": "收好记录 · 返回地图",
+    "stay_button": "继续探索普洱",
+    "next_button": "前往古城集场",
+    "next_station": "gucheng"
+  },
+  "walk": {
+    "ray_top": 0.8,
+    "ray_bottom": -0.65,
+    "road_half_width": 1.05
+  },
+  "map_title": "普洱访查 · 点击目标引路",
+  "ui": {
+    "initial_objective": "寻找古锦上的文字线索\n走访竹楼女主人、茶农和小沙弥",
+    "complete_objective": "普洱走访完成\n已获得贝叶誓约碎片。下一站：古城集场。",
+    "solved_objective": "核对誓约记录\n贝叶已排齐，返回岩香处完成记录",
+    "visit_objective": "整理贝叶\n返回岩香处开始贝叶归册",
+    "interviews_objective": "拜访岩香\n前往奘房，请岩香辨认古锦上的文字",
+    "locked_target": "还有走访未完成，请查看地图上的打卡点。",
+    "locked_prompt": "先完成三处走访",
+    "locked_hint": "还有走访未完成，请查看地图上的打卡点。",
+    "arrival_hint": "E · 寻找古锦上的文字线索",
+    "core_hint": "E · 拜访岩香",
+    "retry_hint": "E · 开始贝叶归册",
+    "farewell_hint": "E · 核对誓约记录",
+    "complete_hint": "已获得贝叶誓约碎片。下一站：古城集场。",
+    "interrupted": "交谈尚未完成，可再次与对方交谈。"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dali_granny_repeat",
+  "title": "民居巷 · 再问阿婆",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "民居巷阿婆",
+      "text": "纸笔带上了吗？她一画，你就明白了。",
+      "source_line": "D18",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    },
+    {
+      "speaker": "民居巷阿婆",
+      "text": "坊门口那几块蓝白布，就是她晾的。",
+      "source_line": "D19",
+      "portrait": "res://assets/characters/dali/granny-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/granny-v01.png",
+    "speaker_portraits": {
+      "民居巷阿婆": "res://assets/characters/dali/granny-v01.png"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "dali_popo_repeat",
+  "title": "周城扎染坊 · 再访婆婆",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "扎染婆婆",
+      "text": "又来了？上回那份记得挺清楚，坊里留着呢。",
+      "source_line": "I17",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "我也带着。以后遇到认不准的，还得来请教您。",
+      "source_line": "I18"
+    },
+    {
+      "speaker": "扎染婆婆",
+      "text": "来就是了。下回再给你看几个。",
+      "source_line": "I19",
+      "portrait": "res://assets/puzzles/dali/npc_popo.png"
+    }
+  ],
+  "background": "res://assets/puzzles/dali/bg_zharanfang.png",
+  "stage": {
+    "portrait": "res://assets/puzzles/dali/npc_popo.png",
+    "speaker_portraits": {
+      "扎染婆婆": "res://assets/puzzles/dali/npc_popo.png"
+    }
+  }
+}

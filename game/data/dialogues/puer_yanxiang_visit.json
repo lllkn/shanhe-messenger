@@ -1,0 +1,97 @@
+{
+  "id": "puer_yanxiang_visit",
+  "title": "普洱 · 奘房",
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "您好，请问是岩香吗？"
+    },
+    {
+      "speaker": "岩香",
+      "text": "是我。进来坐，桌边这些叶子先别碰。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "岩香把手边的贝叶放好，腾出一块桌面。你把相机放在身旁，没有打开。"
+    },
+    {
+      "speaker": "主角",
+      "text": "我是来拍纪录片的，正在访查茶马古道沿线的手艺。想请您看看馆里这块古锦。"
+    },
+    {
+      "speaker": "岩香",
+      "text": "字那一段，放大给我看。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你放大照片。岩香看了一会儿，又低头翻了翻桌上的旧册。"
+    },
+    {
+      "speaker": "岩香",
+      "text": "有几个字能对上，整段还得核对。别光凭这张照片，就把意思定了。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "这里有没有能对照的记录？"
+    },
+    {
+      "speaker": "岩香",
+      "text": "有些。可叶子散了，得一页页找，一页页读。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "平时还有人跟您一起读吗？"
+    },
+    {
+      "speaker": "岩香",
+      "text": "小沙弥在学。有些年轻人也来问，可学一阵，又忙别的去了。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "岩香",
+      "text": "经文在，读的人少了。认字不是听一回就会，我学了几年，到现在碰上生字还要查。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "您愿意的话，咱们先把能公开的几页录下来。您念，我录，再把解释记在旁边。"
+    },
+    {
+      "speaker": "岩香",
+      "text": "录下来也得有人看。字拍得再清楚，不认得，还是不认得。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "那就连着读音和意思一起留。整理好先请您核对，也给正在学的人用。"
+    },
+    {
+      "speaker": "岩香",
+      "text": "行。先理这几张讲同路人规矩的叶子，其他的收起来，不拍。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "这几张，我能帮上什么？"
+    },
+    {
+      "speaker": "岩香",
+      "text": "我讲过的意思记在旁边了。你先找出讲互相照应的六张，挑齐，再打孔穿绳。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "岩香",
+      "text": "排好让我念一遍。哪句接不上，我们就把那张拿下来，再排。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好。您慢慢讲，我跟着整理。"
+    }
+  ],
+  "background": "res://assets/puzzles/puer/bg_zangfang.png"
+}

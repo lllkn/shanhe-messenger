@@ -1,0 +1,156 @@
+{
+  "id": "lijiang_dongba_visit",
+  "title": "东巴院 · 先坐下来认",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "主角来到东巴院，阿东巴正在门口晾晒书页。主角刚走近，阿东巴先看见了她肩上的相机。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "又是来拍电视的？",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "您好，我们是来拍纪录片的，想跟您打听——"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "不拍。前两年也来过人，架上机器拍了半天，拍完就走了。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "那后来呢？"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "后来？没后来了。片子我没见着，记录的人还是我一个。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "主角把相机收到身侧，拿出手机里的古锦照片。"
+    },
+    {
+      "speaker": "主角",
+      "text": "那我们先不拍。您看看这个，馆里收藏的一块古锦。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "拿近点……屏幕有点暗，能调亮、放大看看吗？",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "能。您看这一段，街上的人说可能是东巴字。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "嗯，是。旁边这个拍得不清楚，得再看看。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "馆里也没认全，所以才让我们来找人。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "你们找人，怎么找着找着，又要拍我的书？",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "我们想知道这些纹样是什么意思，也想记录您是怎么认出来的。不过拍之前一定问您同意。"
+    },
+    {
+      "speaker": "旁白",
+      "text": "阿东巴把手机递回来，低头翻了翻手里的书页。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "老辈留下来的东西，有规矩，心诚才能学。不是拿个机器来，我就能全摊给你看。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "明白。您不让拍的，我们就收起来。认不准的地方，我们也不往片子里乱写。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "街上还跟你说什么了？",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "碰见一个小朋友，说他爷爷知道这是东巴字，可也认不全。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "认得几个，跟能读下来，是两回事。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "您平时还教人吗？"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "有人来，我也教。就是坐不了多久。家里几个孩子也去城里了，回来吃顿饭，又走了。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "那今天您教我们几个。我们先坐下来认，拍的事，等您觉得合适了再说。"
+    },
+    {
+      "speaker": "旁白",
+      "text": "阿东巴看了她一眼，把晾好的书页拢到一起。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "……进来吧。机器先放旁边，别碰着这些纸。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好。"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "认字的过程可以记，书里的内容，别全拍走。记完拿给我看看。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "行，您看过，我们再用。"
+    },
+    {
+      "speaker": "旁白",
+      "text": "院内，阿东巴从桌边取出一叠字卡，又摊开几张散页。",
+      "background": "res://assets/puzzles/lijiang/bg_dongba_yard.png"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "先试试这几个。我出一张，你找找它画的是什么，看清楚再选。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "这些散页也是要认的？"
+    },
+    {
+      "speaker": "阿东巴",
+      "text": "这是夹在书里的马帮记事，前阵子受了潮，弄乱了。把字认完，再帮我理理，看看他们这一天先做什么，后做什么。",
+      "portrait": "res://assets/puzzles/lijiang/npc_dongba.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好，您出第一张吧。"
+    }
+  ]
+}

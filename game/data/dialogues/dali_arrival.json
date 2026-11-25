@@ -1,0 +1,45 @@
+{
+  "id": "dali_arrival",
+  "title": "大理 · 寻找老纹样",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "大理到了。码头边的风吹过来，巷口晾着的蓝白布也跟着翻动。",
+      "source_line": "A01"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你打开古锦照片，放大其中一段花样。这里的人，会不会认得它？",
+      "source_line": "A02"
+    },
+    {
+      "speaker": "主角",
+      "text": "先到城里问问。能找到做过这种花样的人，就有线索了。",
+      "source_line": "A03"
+    },
+    {
+      "speaker": "旁白",
+      "text": "乳扇摊、扎染店、民居巷，先从这三处走访。",
+      "source_line": "A04"
+    }
+  ],
+  "stage": {
+    "portrait": "",
+    "speaker_portraits": {},
+    "phone": {
+      "photo": "res://assets/characters/dali/brocade-photo-v01.png",
+      "show": [
+        "A02",
+        "A03"
+      ],
+      "required": "",
+      "confirm_label": "查看照片",
+      "require_zoom": false,
+      "instruction": "可以调亮屏幕，放大花样。",
+      "hint": "查看古锦照片"
+    }
+  }
+}

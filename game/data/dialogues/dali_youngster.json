@@ -1,0 +1,101 @@
+{
+  "id": "dali_youngster",
+  "title": "扎染店 · 老花样",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "你好，我在找照片上这种老花样。想请你帮忙看看。",
+      "source_line": "C02"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "可以……这是一块旧锦？",
+      "source_line": "C03",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "嗯，馆里收藏的。我们想找找沿线还有没有人认得这些纹样。",
+      "source_line": "C04"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "这个我没做过。店里常用的样子，我还能认，老花样得问我奶奶。",
+      "source_line": "C05",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "她也在这家店里吗？",
+      "source_line": "C06"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "她在周城的老坊里。以前有一套纹样板，早些年进水，泡坏了。",
+      "source_line": "C07",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "后来没有重新画一套？",
+      "source_line": "C08"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "奶奶说她记得，用不着。我也想过帮她整理，可一忙起来，就一直往后拖。",
+      "source_line": "C09",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "现在她还做这些老花样吗？",
+      "source_line": "C10"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "做。她拿起布就知道从哪儿下针，可让我照着做，我就得一步步问。",
+      "source_line": "C11",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "你去找她吧。要是不熟路，民居巷的阿婆常过去，问她也行。",
+      "source_line": "C12",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好，我带着照片去。",
+      "source_line": "C13"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "我把店里的事收一收，晚点也回去看看。",
+      "source_line": "C14",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/youngster-v01.png",
+    "speaker_portraits": {
+      "扎染店姑娘": "res://assets/characters/dali/youngster-v01.png"
+    },
+    "phone": {
+      "photo": "res://assets/characters/dali/brocade-photo-v01.png",
+      "show": [
+        "C02",
+        "C03",
+        "C04",
+        "C05"
+      ],
+      "required": "C03",
+      "confirm_label": "让扎染店姑娘看照片",
+      "require_zoom": false,
+      "instruction": "调到70%以上，再给扎染店姑娘看。",
+      "hint": "请先调亮手机，再点击「让扎染店姑娘看照片」。"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "xianggelila_danzeng_visit",
+  "title": "丹增染坊 · 机器与手",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "丹增师傅，您好。阿东巴让我来找您。",
+      "copy_id": "E15"
+    },
+    {
+      "speaker": "丹增",
+      "text": "他让你来的？进来吧，留神门槛。",
+      "copy_id": "E16",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "丹增握着搅棒，慢慢搅动缸里的布。听见你进来，他把棒子靠在缸边，扶着腰站直。",
+      "copy_id": "F01"
+    },
+    {
+      "speaker": "丹增",
+      "text": "阿东巴还好？",
+      "copy_id": "F02",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "挺好。他看过这张古锦照片，说这上面的颜色，可以来问您。",
+      "copy_id": "F03"
+    },
+    {
+      "speaker": "主角",
+      "text": "我是来拍纪录片的，正在访查茶马古道沿线的手艺。",
+      "copy_id": "F04"
+    },
+    {
+      "speaker": "丹增",
+      "text": "照片拿近些。",
+      "copy_id": "F05",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你放大古锦的一角。丹增看了片刻，又从桌边取来一块旧布。",
+      "copy_id": "F06"
+    },
+    {
+      "speaker": "丹增",
+      "text": "这个花样，我这里也留着。颜色有些淡了，还能对着看。",
+      "copy_id": "F07",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "您现在还照这个做？",
+      "copy_id": "F08"
+    },
+    {
+      "speaker": "丹增",
+      "text": "做。就是来找的人少了。",
+      "copy_id": "F09",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "布料店老板说，客人等不了那么久。",
+      "copy_id": "F10"
+    },
+    {
+      "speaker": "丹增",
+      "text": "他说得没错。机器做得快，价钱也低。",
+      "copy_id": "F11",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "丹增",
+      "text": "我这一缸，得看它吃不吃色、匀不匀。没到时候，催也没用。",
+      "copy_id": "F12",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "您儿子也担心您太累。",
+      "copy_id": "F13"
+    },
+    {
+      "speaker": "丹增",
+      "text": "他有他的难处。料钱、柴钱，哪样都得算。",
+      "copy_id": "F14",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "丹增看了看染缸，重新伸手去拿搅棒。",
+      "copy_id": "F15"
+    },
+    {
+      "speaker": "主角",
+      "text": "我帮您做这一缸。您说，我做。",
+      "copy_id": "F16"
+    },
+    {
+      "speaker": "丹增",
+      "text": "拍片子的，也肯沾这手染水？",
+      "copy_id": "F17",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "光拍成品，我也讲不清这工夫花在哪儿。",
+      "copy_id": "F18"
+    },
+    {
+      "speaker": "丹增",
+      "text": "行。先把这张纹样上的颜色认清，再到缸边来。",
+      "copy_id": "F19",
+      "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    {
+      "speaker": "旁白",
+      "text": "你收好手机，挽起袖子。丹增把纹样和色料摆到你面前。",
+      "copy_id": "F20"
+    }
+  ],
+  "background": "res://assets/puzzles/xianggelila/bg_danzeng_yard.png"
+}

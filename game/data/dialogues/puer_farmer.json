@@ -1,0 +1,46 @@
+{
+  "id": "puer_farmer",
+  "title": "普洱 · 晒茶场",
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "您好，我在访查茶马古道上的手艺。想打听旧锦里这段字。"
+    },
+    {
+      "speaker": "茶农",
+      "text": "字我认不得。你这锦，是跟以前走马帮的人有关？",
+      "portrait": "res://assets/characters/puer/farmer-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "馆里收着的，我们还在查它的来历。您家里有人走过马帮？"
+    },
+    {
+      "speaker": "茶农",
+      "text": "老人走过。我小时候听他讲，结伴出门，吃喝互相分，谁落在后头，前头的人就等等。",
+      "portrait": "res://assets/characters/puer/farmer-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "这些规矩，家里还留着文字记录吗？"
+    },
+    {
+      "speaker": "茶农",
+      "text": "没有，就记得几句话。说过的人不在了，细的我也讲不全。",
+      "portrait": "res://assets/characters/puer/farmer-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "我把您记得的先记下来。锦上的字，再请岩香帮我认。"
+    },
+    {
+      "speaker": "茶农",
+      "text": "你记归记，可别把我这几句话直接当成锦上的意思。我也没认出来。",
+      "portrait": "res://assets/characters/puer/farmer-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "明白。我会分开记，再去核对。"
+    }
+  ]
+}

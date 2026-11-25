@@ -1,0 +1,19 @@
+{
+  "id": "dali_zhaobi",
+  "title": "大理 · 照壁巷",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "白墙灰瓦之间，一面照壁挡住院内的视线。墙脚摆着几盆花，门边晾着刚洗好的布。",
+      "source_line": "J02"
+    },
+    {
+      "speaker": "主角",
+      "text": "拍一段巷里的日常，留作这次走访的环境镜头。",
+      "source_line": "J03"
+    }
+  ]
+}

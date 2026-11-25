@@ -1,0 +1,8 @@
+{
+  "id": "gucheng_mulaoye_repeat",
+  "title": "古城 · 织坊",
+  "on_end": {"type": "none"},
+  "lines": [
+    {"speaker": "旁白", "text": "小木坐在织机旁，木老爷将旧织谱摊到他面前。你放轻脚步，给他们留下一点安静。"}
+  ]
+}

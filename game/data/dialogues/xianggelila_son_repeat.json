@@ -1,0 +1,14 @@
+{
+  "id": "xianggelila_son_repeat",
+  "title": "民居巷",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "丹增的儿子",
+      "text": "我爸一忙起来就顾不上旁边。你进去先叫他，别直接碰缸。",
+      "copy_id": "D16"
+    }
+  ]
+}

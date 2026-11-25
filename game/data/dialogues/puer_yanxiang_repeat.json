@@ -1,0 +1,16 @@
+{
+  "id": "puer_yanxiang_repeat",
+  "title": "普洱 · 奘房",
+  "lines": [
+    {
+      "speaker": "岩香",
+      "text": "描样收好了？有认不清的，回来一起看。",
+      "portrait": "res://assets/characters/puer/yanxiang-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "收好了。整理好的片子和记录，我也会带回来。"
+    }
+  ],
+  "background": "res://assets/puzzles/puer/bg_zangfang.png"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dali_youngster_done",
+  "title": "扎染店 · 姑娘的记录",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "扎染店姑娘",
+      "text": "上回那份花样记录，我已经放到店里了。",
+      "source_line": "I20",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    },
+    {
+      "speaker": "扎染店姑娘",
+      "text": "不过有些地方，还是得坐到奶奶旁边，看着她做才明白。",
+      "source_line": "I21",
+      "portrait": "res://assets/characters/dali/youngster-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/youngster-v01.png",
+    "speaker_portraits": {
+      "扎染店姑娘": "res://assets/characters/dali/youngster-v01.png"
+    }
+  }
+}

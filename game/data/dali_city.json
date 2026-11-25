@@ -1,0 +1,312 @@
+{
+  "title": "大理 · 老纹样访查",
+  "map_title": "大理访查 · 点击目标引路",
+  "bounds": [
+    -26,
+    26,
+    -21,
+    22
+  ],
+  "canal": [
+    [
+      -25.8735,
+      12.138
+    ],
+    [
+      -23,
+      13
+    ],
+    [
+      -19,
+      14.2
+    ],
+    [
+      -14.5,
+      15.4
+    ],
+    [
+      -9.5,
+      16.2
+    ],
+    [
+      -4.5,
+      16.8
+    ],
+    [
+      0,
+      17.2
+    ],
+    [
+      5,
+      18
+    ],
+    [
+      10,
+      18.8
+    ],
+    [
+      14,
+      18.6
+    ],
+    [
+      17,
+      17.6
+    ],
+    [
+      20.5,
+      16.4
+    ],
+    [
+      23.8105,
+      15.265
+    ]
+  ],
+  "bridges": [
+    {
+      "id": "CenterToTieDye",
+      "position": [
+        1.5,
+        0.32,
+        -4.0
+      ],
+      "across": [
+        0.98877,
+        0,
+        0.14944
+      ],
+      "water": false
+    },
+    {
+      "id": "AxisRoad",
+      "position": [
+        6,
+        0.32,
+        -5.1
+      ],
+      "across": [
+        0.95534,
+        0,
+        0.29552
+      ],
+      "water": false
+    },
+    {
+      "id": "WaterGateWest",
+      "position": [
+        19.4,
+        0.32,
+        -1.2
+      ],
+      "across": [
+        1,
+        0,
+        0
+      ],
+      "water": false
+    },
+    {
+      "id": "ShoreRoad",
+      "position": [
+        21.5,
+        0.32,
+        16.4
+      ],
+      "across": [
+        0,
+        0,
+        1
+      ],
+      "water": true
+    },
+    {
+      "id": "ZhouchengYard",
+      "position": [
+        -17,
+        0.32,
+        14.8
+      ],
+      "across": [
+        0,
+        0,
+        1
+      ],
+      "water": true
+    }
+  ],
+  "sampling": {
+    "ray_top": 0.6,
+    "ray_bottom": -0.65,
+    "pavement_names": [
+      "Path_Flagstone",
+      "Courtyard_Paving"
+    ],
+    "max_step": 0.46
+  },
+  "interviews": [
+    {
+      "id": "vendor",
+      "anchor": "NPC_03_MilkFanVendor",
+      "name": "乳扇摊主",
+      "place": "乳扇摊",
+      "short": "乳扇",
+      "dialogue": "dali_vendor",
+      "repeat": "dali_vendor_repeat",
+      "completed_dialogue": "dali_vendor_done",
+      "clue": "摊主觉得照片上的花样眼熟，建议向扎染店年轻人打听。",
+      "radius": 2.2,
+      "color": "bb9876",
+      "height": 1.65,
+      "facing": 3.14159265
+    },
+    {
+      "id": "youngster",
+      "anchor": "NPC_01_TieDyeShopYoungster",
+      "name": "扎染店姑娘",
+      "place": "扎染店",
+      "short": "扎染店",
+      "dialogue": "dali_youngster",
+      "repeat": "dali_youngster_repeat",
+      "completed_dialogue": "dali_youngster_done",
+      "clue": "老纹样板被水泡坏了，姑娘的奶奶仍记得那些花样，现在还在周城扎染坊做活。",
+      "radius": 2.2,
+      "color": "7099ac",
+      "height": 1.6,
+      "facing": 0.0
+    },
+    {
+      "id": "granny",
+      "anchor": "NPC_02_BaiGranny",
+      "name": "民居巷阿婆",
+      "place": "民居巷",
+      "short": "阿婆",
+      "dialogue": "dali_granny",
+      "repeat": "dali_granny_repeat",
+      "completed_dialogue": "dali_granny_done",
+      "clue": "邻居建议带着照片和纸笔去拜访，边看婆婆画，边向她核对。",
+      "radius": 2.2,
+      "color": "bcab83",
+      "height": 1.48,
+      "facing": 1.57
+    }
+  ],
+  "observations": [],
+  "core": {
+    "id": "popo",
+    "name": "扎染婆婆",
+    "place": "周城扎染坊",
+    "short": "扎染坊",
+    "radius": 2.5,
+    "color": "bcab83",
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "height": 1.48,
+    "facing": 2.16
+  },
+  "arrival": "dali_arrival",
+  "visit": "dali_popo_visit",
+  "farewell": "dali_popo_farewell",
+  "core_repeat": "dali_popo_repeat",
+  "visit_step": "popo_visit",
+  "puzzle_step": "pattern",
+  "fragment": "frag_zharan_pattern",
+  "text": {
+    "objective_visit": "寻找老纹样的线索 · %d/%d\n带着古锦照片走访三处",
+    "objective_ready": "访谈完成 · %d/%d\n前往周城扎染坊",
+    "objective_puzzle": "婆婆已同意核对花样\n到桌边开始你画我猜",
+    "objective_farewell": "这一批花样核对好了\n和婆婆一起整理记录",
+    "objective_done": "已获得扎染纹样碎片\n下一站：普洱",
+    "blocked": "还有走访未完成，请查看地图上的打卡点。",
+    "core_locked": "先完成三处走访",
+    "core_puzzle": "E · 开始你画我猜",
+    "core_farewell": "E · 和婆婆整理纹样纸",
+    "footer_done": "大理走访完成 · 可从长卷前往普洱",
+    "reward_title": "获得 · 扎染纹样碎片",
+    "reward_body": "扎染纹样碎片已收进笔记本。",
+    "reward_next": "下一站：普洱 · 寻找岩香",
+    "reward_stay": "留在大理逛逛"
+  },
+  "water_width": 1.9,
+  "boundary_boxes": [
+    {
+      "center": [
+        -26.3,
+        1,
+        0
+      ],
+      "size": [
+        0.5,
+        4,
+        45
+      ]
+    },
+    {
+      "center": [
+        26.3,
+        1,
+        0
+      ],
+      "size": [
+        0.5,
+        4,
+        45
+      ]
+    },
+    {
+      "center": [
+        0,
+        1,
+        -21.6
+      ],
+      "size": [
+        53,
+        4,
+        0.5
+      ]
+    },
+    {
+      "center": [
+        0,
+        1,
+        22.6
+      ],
+      "size": [
+        53,
+        4,
+        0.5
+      ]
+    }
+  ],
+  "hide_meshes": [
+    "B_05_*"
+  ],
+  "fall_bounds": [
+    -27,
+    27,
+    -22.5,
+    23.5
+  ],
+  "walk": {
+    "ray_top": 0.6,
+    "ray_bottom": -0.65,
+    "road_names": [
+      "Path_Flagstone",
+      "Courtyard_Paving"
+    ],
+    "foot_clearance": 0.24,
+    "step_zones": [
+      {
+        "bounds": [
+          20.5,
+          24,
+          -2.5,
+          0.5
+        ],
+        "clearance": 0.32
+      }
+    ]
+  },
+  "precise_water_bridges": true
+}

@@ -1,0 +1,46 @@
+{
+  "id": "puer_hostess",
+  "title": "普洱 · 竹楼前",
+  "lines": [
+    {
+      "speaker": "主角",
+      "text": "您好，想请您看看，这块旧锦上的字，您认得吗？"
+    },
+    {
+      "speaker": "竹楼女主人",
+      "text": "拿近一点……这样的字见过，可我读不出来。",
+      "portrait": "res://assets/characters/puer/hostess-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "在哪儿见过？"
+    },
+    {
+      "speaker": "竹楼女主人",
+      "text": "奘房收着的贝叶册上。以前听老人念过，自己没学会。",
+      "portrait": "res://assets/characters/puer/hostess-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "现在还有人能读吗？"
+    },
+    {
+      "speaker": "竹楼女主人",
+      "text": "有，岩香。他认得，也会抄。你带着照片去问他。",
+      "portrait": "res://assets/characters/puer/hostess-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "他平时就在奘房？"
+    },
+    {
+      "speaker": "竹楼女主人",
+      "text": "这几天在理旧册。书一直留着，可有人问里面写什么，我们就答不上来。",
+      "portrait": "res://assets/characters/puer/hostess-v01.png"
+    },
+    {
+      "speaker": "主角",
+      "text": "好，谢谢您，我再沿路打听一下。"
+    }
+  ]
+}

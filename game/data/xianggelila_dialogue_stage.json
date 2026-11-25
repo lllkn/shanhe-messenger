@@ -1,0 +1,79 @@
+{
+  "xianggelila_cloth": {
+    "portrait": "res://assets/characters/xianggelila/cloth-v01.png",
+    "phone": {
+      "photo": "res://assets/characters/xianggelila/brocade-photo-v01.png",
+      "show": [
+        "B04",
+        "B05"
+      ]
+    }
+  },
+  "xianggelila_cloth_repeat": {
+    "portrait": "res://assets/characters/xianggelila/cloth-v01.png"
+  },
+  "xianggelila_visitor": {
+    "portrait": "res://assets/characters/xianggelila/visitor-v01.png"
+  },
+  "xianggelila_visitor_repeat": {
+    "portrait": "res://assets/characters/xianggelila/visitor-v01.png"
+  },
+  "xianggelila_son": {
+    "portrait": "res://assets/characters/xianggelila/son-v01.png",
+    "phone": {
+      "photo": "res://assets/characters/xianggelila/brocade-photo-v01.png",
+      "show": [
+        "D04",
+        "D05"
+      ]
+    }
+  },
+  "xianggelila_son_repeat": {
+    "portrait": "res://assets/characters/xianggelila/son-v01.png"
+  },
+  "xianggelila_danzeng_visit": {
+    "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png",
+    "phone": {
+      "photo": "res://assets/characters/xianggelila/brocade-photo-v01.png",
+      "show": [
+        "F03",
+        "F19"
+      ],
+      "required": "F05",
+      "confirm_label": "让丹增看照片",
+      "instruction": "调亮到70%以上，放大纹样，再递给丹增。",
+      "hint": "请调亮并放大纹样，再点击「让丹增看照片」",
+      "require_zoom": true
+    }
+  },
+  "xianggelila_danzeng_farewell": {
+    "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png",
+    "speaker_portraits": {
+      "丹增的儿子": "res://assets/characters/xianggelila/son-v01.png",
+      "丹增": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    },
+    "line_portraits": {
+      "H09": "res://assets/characters/xianggelila/son-v01.png",
+      "H12": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+    }
+  },
+  "xianggelila_danzeng_repeat": {
+    "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+  },
+  "xianggelila_danzeng_locked": {
+    "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+  },
+  "xianggelila_retry": {
+    "portrait": "res://assets/puzzles/xianggelila/npc_danzeng.png"
+  },
+  "xianggelila_arrival": {
+    "portrait": "",
+    "phone": {
+      "photo": "res://assets/characters/xianggelila/brocade-photo-v01.png",
+      "show": [
+        "A02",
+        "A03"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "dali_pagodas",
+  "title": "大理 · 三塔远眺",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "旁白",
+      "text": "越过城里的屋顶，远处的三塔映在山前。街巷里的声音还在身后，人们照常忙着。",
+      "source_line": "J05"
+    },
+    {
+      "speaker": "主角",
+      "text": "远景拍好了，回街里继续找人。",
+      "source_line": "J06"
+    }
+  ]
+}

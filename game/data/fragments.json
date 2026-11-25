@@ -1,0 +1,32 @@
+{
+  "fragments": {
+    "frag_dongba_tea": {
+      "name": "东巴茶经碎片",
+      "station": "lijiang",
+      "meaning": "字形、残页与马帮日常连成一段故事。",
+      "usage": "丽江东巴字卡两关完成后获得。",
+      "source": "剧情创作内容；文化考据条目待补充。"
+    },
+    "frag_dye_five": {
+      "name": "五色锦纹碎片",
+      "station": "xianggelila",
+      "meaning": "补全锦纹、按序下料，留下手工染色的记忆。",
+      "usage": "香格里拉五色配置完成后获得。",
+      "source": "剧情创作内容；文化考据条目待补充。"
+    },
+    "frag_zharan_pattern": {
+      "name": "扎染纹样碎片",
+      "station": "dali",
+      "meaning": "蓝白纹样承载沿途的手艺记忆。",
+      "usage": "大理纹样小游戏完成后获得。",
+      "source": "剧情创作内容；文化考据条目待补充。"
+    },
+    "frag_beiye_oath": {
+      "name": "贝叶誓约碎片",
+      "station": "puer",
+      "meaning": "同路的人，不分哪个族，盐茶共担。",
+      "usage": "普洱贝叶经归册完成后获得。",
+      "source": "本段誓约及关卡短句为游戏创作，并非真实经文或历史誓词引文。"
+    }
+  }
+}

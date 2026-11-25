@@ -1,0 +1,5 @@
+{
+  "id":"example", "title":"剧情视频接入示例", "video":"", "allow_skip":true,
+  "hotspots":[{"id":"route", "at":12.0, "prompt":"接下来走向哪里？", "choices":[{"label":"沿古道前行", "action":{"type":"flag", "key":"follow_road"}},{"label":"留在集市", "action":{"type":"flag", "key":"stay_market"}}]}],
+  "on_end":{"type":"map"}
+}

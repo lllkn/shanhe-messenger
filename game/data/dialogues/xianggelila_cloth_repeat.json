@@ -1,0 +1,14 @@
+{
+  "id": "xianggelila_cloth_repeat",
+  "title": "布料店",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "布料店老板",
+      "text": "丹增还在那个老坊里。门口晾着布的那家，就是。",
+      "copy_id": "B15"
+    }
+  ]
+}

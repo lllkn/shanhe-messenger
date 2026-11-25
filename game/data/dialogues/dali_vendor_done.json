@@ -1,0 +1,21 @@
+{
+  "id": "dali_vendor_done",
+  "title": "照壁巷 · 再见摊主",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "乳扇摊主",
+      "text": "问着了？那就好，这趟没白走。",
+      "source_line": "I22",
+      "portrait": "res://assets/characters/dali/vendor-v01.png"
+    }
+  ],
+  "stage": {
+    "portrait": "res://assets/characters/dali/vendor-v01.png",
+    "speaker_portraits": {
+      "乳扇摊主": "res://assets/characters/dali/vendor-v01.png"
+    }
+  }
+}

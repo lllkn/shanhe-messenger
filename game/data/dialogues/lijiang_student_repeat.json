@@ -1,0 +1,8 @@
+{
+  "id": "lijiang_student_repeat",
+  "title": "再访 · 四方街",
+  "on_end": {"type": "none"},
+  "lines": [
+    {"speaker": "小学生", "text": "姐姐，拍好纪录片记得给我看看！"}
+  ]
+}

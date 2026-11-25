@@ -1,0 +1,14 @@
+{
+  "id": "xianggelila_visitor_repeat",
+  "title": "游客",
+  "on_end": {
+    "type": "none"
+  },
+  "lines": [
+    {
+      "speaker": "游客",
+      "text": "你要是拍到了做布的过程，我也想看看。",
+      "copy_id": "C13"
+    }
+  ]
+}

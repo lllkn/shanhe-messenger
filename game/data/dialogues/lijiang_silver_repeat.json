@@ -1,0 +1,8 @@
+{
+  "id": "lijiang_silver_repeat",
+  "title": "再访 · 银饰店",
+  "on_end": {"type": "none"},
+  "lines": [
+    {"speaker": "银饰大姐", "text": "那纹样像是字，去东巴院问问吧。"}
+  ]
+}

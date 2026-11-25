@@ -1,0 +1,8 @@
+{
+  "id": "lijiang_inn_repeat",
+  "title": "再访 · 客栈",
+  "on_end": {"type": "none"},
+  "lines": [
+    {"speaker": "客栈老板", "text": "阿东巴就在东巴院，去找他聊聊吧。"}
+  ]
+}
